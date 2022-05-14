@@ -11,3 +11,7 @@
         flex-direction: column;
     }
 }
+
+.footer__link:hover {
+    opacity: .5;
+}
