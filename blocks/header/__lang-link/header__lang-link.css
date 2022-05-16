@@ -4,6 +4,7 @@
     line-height: 28px;
     text-decoration: none;
     color: #fff;
+    transition: .2s ease-in-out;
 }
 
 @media screen and (max-width: 320px) {

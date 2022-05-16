@@ -11,6 +11,10 @@
     margin-bottom: 0;
 }
 
+.place__paragraph:first-of-type {
+    margin-top: 32px;
+}
+
 @media screen and (max-width: 768px) {
     .place__paragraph {
         font-size: 16px;
@@ -18,12 +22,17 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
     .place__paragraph {
         grid-column: 1;
-        margin-top: 32px;
-        margin-left: 16px;
-        margin-right: 16px;
-        margin-bottom: 0;
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .place__paragraph {
+        max-width: 90%;
+        margin: 0 auto 25px auto;
     }
 }

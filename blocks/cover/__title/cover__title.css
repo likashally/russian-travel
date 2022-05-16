@@ -1,13 +1,12 @@
 .cover__title {
+    color: #fff;
     font-weight: 900;
     font-size: 72px;
     line-height: 76px;
     text-align: center;
-    color: #fff;
-    max-width: 560px;
-    z-index: 0;
-    margin: 0;
-    padding: 0;
+    position: relative;
+    z-index: 3;
+    margin: 0 auto;
     padding-bottom: 32px;
 }
 
@@ -16,6 +15,5 @@
         font-size: 32px;
         line-height: 35px;
         padding-bottom: 16px;
-        max-width: 250px;
     }
 }

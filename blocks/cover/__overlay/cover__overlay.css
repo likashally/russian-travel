@@ -1,21 +1,16 @@
 .cover__overlay {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    flex-direction: column;
-    text-decoration: none;
-    color: #fff;
-    position: relative;
-}
-
-.cover__overlay:hover:before {
-    content: "";
-    background: rgba(0, 0, 0, 0.3);
-    top: 0;
+    position: absolute;
     left: 0;
     right: 0;
+    top: 0;
     bottom: 0;
-    position: absolute;
+    z-index: 2;
+    display: block;
+    background: rgba(42, 44, 47, 0.3);
+    transition: .2s ease-in-out;
+}
+
+.cover__overlay:hover {
+    background: rgba(42, 44, 47, 0.8)
 }
 
