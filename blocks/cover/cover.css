@@ -10,6 +10,7 @@
     transition-timing-function: linear; 
     position: relative;
     display: flex;
+    margin: 0 auto;
 }
 
 
