@@ -8,7 +8,6 @@
 }
 
 .place__paragraph:last-of-type {
-    margin-top: 0;
     margin-bottom: 0;
 }
 
@@ -16,13 +15,15 @@
     .place__paragraph {
         font-size: 16px;
         line-height: 26.08px;
+        max-width: 93.75%;
     }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 600px) {
     .place__paragraph {
         grid-column: 1;
         margin-top: 32px;
+        margin-bottom: 0;
         margin-left: auto;
         margin-right: auto;
         max-width: 90%;

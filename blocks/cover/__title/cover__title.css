@@ -6,6 +6,8 @@
     text-align: center;
     margin: 0 auto;
     padding-bottom: 32px;
+    position: relative;
+    max-width: 560px;
 }
 
 @media screen and (max-width: 767px) {
@@ -15,5 +17,11 @@
         font-size: 32px;
         line-height: 35px;
         padding-bottom: 16px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .cover__title {
+        max-width: 71%;
     }
 }
